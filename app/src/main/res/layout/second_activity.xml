@@ -1,0 +1,62 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/second_screenshot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitStart"
+        android:src="@drawable/mess_page" />
+
+    <Button
+        android:id="@+id/open_second_page_button1"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top|start"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="560dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="" />
+
+    <Button
+        android:id="@+id/open_second_page_button2"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top|start"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="560dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="" />
+
+    <Button
+        android:id="@+id/open_second_page_button3"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top|start"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="635dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="" />
+
+    <Button
+        android:id="@+id/open_second_page_button4"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top|start"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="635dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="" />
+
+</FrameLayout>
